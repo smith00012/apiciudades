@@ -18,6 +18,8 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 
 # Install PHP extensions required by your application
 RUN docker-php-ext-install pdo pdo_mysql
+RUN docker-php-ext-install mysqli
+
 
 
 
