@@ -1,8 +1,7 @@
 # Use an official PHP Apache image as the base
 FROM php:8.0-apache
 
-# Set the working directory in the container
-WORKDIR /var/www/html
+
 
 # Copy the application files to the container
 COPY ./src /var/www/html/
